@@ -1,0 +1,14 @@
+{
+  "name": "with-reasonml",
+  "sources": ["components", "pages"],
+  "bs-dependencies": ["reason-react", "bs-next"],
+  "reason": { "react-jsx": 2 },
+  "package-specs": ["commonjs"],
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "ppx-flags": [
+    "./node_modules/ppx_bsx/bin/ppx_bsx.exe"
+  ],
+  "refmt": 3
+}
