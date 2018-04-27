@@ -12,4 +12,4 @@ let make _children = {
       "]
 }
 
-let jsComponent = ReasonReact.wrapReasonForJs ~component (fun _ -> make [||])
+let default = ReasonReact.wrapReasonForJs ~component (fun _ -> make [||])
