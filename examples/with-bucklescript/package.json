@@ -2,7 +2,7 @@
   "name": "with-reasonml",
   "version": "1.0.0",
   "scripts": {
-    "dev": "concurrently \"bsb -clean-world -make-world -w\" \"next dev lib/js\"",
+    "dev": "bsb -clean-world -make-world && next dev lib/js",
     "build": "bsb -clean-world -make-world && next build lib/js",
     "start": "next start lib/js"
   },
